@@ -16,7 +16,7 @@ const Food = (props) => {
                     <div className="row"><h7 className="text-end">taiwanese stir-fry</h7></div>
                     <div className="row"><h7 className="text-end">noodles</h7></div>
                     <div className="row"><h7 className="text-end mb-2">snacks</h7></div>
-                    <div class="text-end">
+                    <div class="text-end">w
                         <a href="/menu-en#food">
                             <Button outline color="success" size="md" className="shadow-sm rounded-0 text-end">see food</Button>
                         </a>

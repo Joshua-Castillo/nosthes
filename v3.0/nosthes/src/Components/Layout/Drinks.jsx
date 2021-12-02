@@ -10,7 +10,7 @@ import RedBean from './../photos/red_bean.png';
 const Drinks = (props) => {
     return (
         <Fragment  >
-            <div class="row mx-auto my-3 container px-0">
+            <div class="row mx-auto my-3 container-fluid px-0">
                 <div className="px-0 carousel slide carousel-fade col-6" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div class="carousel-item active">
