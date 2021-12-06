@@ -11,21 +11,3 @@ code {
     monospace;
 
 }
-
-@media (max-width: 400px) {
-  #desktop {
-      display: none;
-  }
-  #mobile {
-      display: block;
-  }
-}
-
-@media (min-width: 401px) {
-  #desktop {
-      display: block;
-  }
-  #mobile {
-      display: none;
-  }
-}

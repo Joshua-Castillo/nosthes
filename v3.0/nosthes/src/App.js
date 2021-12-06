@@ -13,15 +13,13 @@ import MenuFr from './Components/Pages/Menu_Fr.jsx';
 
 function App() {
   return (
+
     <Router>
       <Fragment>
-
         <Route exact path='/' component={Languages} />
         <Switch>
-
           <Route exact path='/acceuil' component={Acceuil} />
           <Route exact path='/home' component={Home} />
-
           <Route exact path='/menu-fr' component={MenuFr} />
           <Route exact path='/menu-en' component={MenuEn} />
 

@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 1vw;
+}
+
+
+body {
+  background-color: transparent;
+}
+
+
+h1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;  
+  font-size: clamp(10px, 2.5vw, 40px);
+}
+
+.description{
+    font-family: 'Yanone Kaffeesatz', sans-serif;  
+    font-size: clamp(10px, 2.5vw, 30px);
+  
+}
+
+.boldunderline{
+  font-family: 'Montserrat', sans-serif;  
+  font-size: clamp(10px, 2.5vw, 40px);
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.boldonly{
+  font-family: 'Montserrat', sans-serif;  
+  font-size: clamp(10px, 2.5vw, 40px);
+  font-weight: bolder;  
+}
+    
+/*==========Drop Down menu ====================================
+/* NAVBAR */
+
+/*    	
+#cfa25c
+rgb(207, 162, 92)
+
+#ca8c34
+rgb(202, 140, 52)
+
+
+
+*/
+
+.navbar{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;  
+  font-size: 17px;
+  text-align: right;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+  /* put value of image height as your need */
+  float: left;
+  margin-left: 10px;
+  
+}
+.nav-item{
+  margin: 3px;
+}
+
+i {
+  padding-right:5px
+}
+@media (min-width: 1400px){
+  .navbar{
+      max-width: 1320px;
+      margin-right:auto;
+      margin-left:auto;
+      
+  }
+
+}
+
+
+
+
+/*==== ^^^^^^^^^^^ Promotion  ^^^^^^^^^^^^^ ==== */
+/* .thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+
+.carousel {
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;} */
+/*==== ^^^^^^^^^^^ MENU  ^^^^^^^^^^^^^ ==== */

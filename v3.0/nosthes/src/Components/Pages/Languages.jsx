@@ -1,14 +1,12 @@
 import React, { Fragment } from 'react';
-// import { Link, Redirect, useParams } from 'react-router-dom';
-import logo from '../photos/nosthesLogo.jpg';
 import { Button } from 'reactstrap';
 import { Link } from "react-router-dom";
-import NavBar_Languages from '../Layout/NavBar_Languages.jsx';
+import NavBarLanguages from '../Layout/NavBar_Languages.jsx';
 import TeaPot from '../photos/new_background.png';
 
 const Langugages = () => {
     return <Fragment>
-        <NavBar_Languages />
+        <NavBarLanguages />
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '60vh' }}>
             <div className="container px-4 px-md-3 pt-0">
                 <div className="card overflow-hidden border-0 rounded-0 text-center">

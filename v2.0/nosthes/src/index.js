@@ -9,11 +9,11 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Desktop from './Desktop_fr';
 
-if(window.outerWidth < 700)
+// if(window.outerWidth < 700)
 ReactDOM.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
+   </BrowserRouter>,
   document.getElementById('root')
 );
 

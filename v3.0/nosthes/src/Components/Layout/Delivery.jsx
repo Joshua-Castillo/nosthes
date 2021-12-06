@@ -9,8 +9,17 @@ import Dash from '../photos/doordash.png'
 const Delivery = (props) => {
     return (
         <Fragment>
-            <div id="delivery" className=" mt-5 fw-bold text-center m-auto">DELIVERY</div>
-            <div className="row mx-auto container">
+            <style type="text/css">
+                {`
+                    @media (min-width: 600px) {
+                        .delivery_size {
+                            height: 5rem;
+                        }
+                    }
+                `}
+            </style>
+            <div id="delivery" className=" mt-5 fw-bold text-center m-auto maxWidth">DELIVERY</div>
+            <div className="row mx-auto container maxWidth">
                 <a className="col-4 p-2" href="https://download.fantuan.ca/">
                     <img src={Fantuan} className="img-fluid" alt="..." />
                 </a>
@@ -22,13 +31,13 @@ const Delivery = (props) => {
                 </a>
                 <div className="row mx-auto" >
                     <a className="col-4 p-4 pt-0" href="https://about.ubereats.com/ca/en/how-it-works/download-uber-eats-app/">
-                        <img src={UberEats} className="img-fluid " alt="..." />
+                        <img src={UberEats} className="img-fluid delivery_size" alt="..." />
                     </a>
                     <a className="col-4 p-4 pt-0" href="https://www.skipthedishes.com/">
-                        <img src={Skip} class=" img-fluid" alt="..." />
+                        <img src={Skip} className=" img-fluid delivery_size" alt="..." />
                     </a>
                     <a className="col-4 p-2" href="https://www.doordash.com/">
-                        <img src={Dash} className="img-fluid " alt="..." />
+                        <img src={Dash} className="img-fluid delivery_size" alt="..." />
                     </a>
                 </div>
             </div>

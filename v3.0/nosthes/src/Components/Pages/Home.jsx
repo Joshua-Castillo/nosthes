@@ -10,8 +10,17 @@ import Delivery from '../Layout/Delivery.jsx';
 
 const Home = () => {
     return <Fragment >
+        <style type="text/css">
+            {`
+                    @media (min-width: 500px) {
+                        .maxSize {
+                            width: 6rem;
+                        }
+                    }
+                `}
+        </style>
         <NavBar />
-        <Greeting />
+        <Greeting className="maxSize" />
         <div className="text-center fw-bold">MENU</div>
         <Drinks />
         <Food />

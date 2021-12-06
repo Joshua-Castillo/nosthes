@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
     Navbar,
     NavbarBrand,
@@ -6,9 +6,6 @@ import {
 import Logo from "../photos/Black-Txt.png"
 
 const NavBar_Languages = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
-
     return (
         <div>
             <Navbar expand="lg" className="m-0" >

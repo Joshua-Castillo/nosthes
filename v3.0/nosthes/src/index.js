@@ -7,22 +7,12 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { DistributeVertical } from 'react-bootstrap-icons';
 
 ReactDOM.render(
-  <div>
-    <div id ="mobile">
-    <BrowserRouter>
+  <BrowserRouter>
     <App />
-    </BrowserRouter>
-      </div>
-      <div id="desktop">
-        Hello world
-      </div>
-  
-  </div>
-  
-  ,
+
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -7,24 +7,35 @@ import IronPlate from './../photos/iron_plate.png';
 
 const Food = (props) => {
     return (
-        <Fragment  >
-            <div className="row my-auto mx-auto container px-0">
+        <Fragment>
+            <style type="text/css">
+                {`
+                    @media (min-width: 600px) {
+                        .maxWidth {
+                            width: 50rem;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+                `}
+            </style>
+            <div className="row my-auto mx-auto container px-0 maxWidth">
                 <div className="col-6">
                     <h6 className="text-end fw-bold text-decoration-underline m-0">NOS cuisine</h6>
-                    <div className="row"><h7 className="text-end">sautés taiwannaise</h7></div>
-                    <div className="row"><h7 className="text-end">nouilles</h7></div>
-                    <div className="row"><h7 className="text-end mb-2">casse-croûtes</h7></div>
-                    <div class="text-end">
+                    <div className="row"><h6 className="text-end">sautés taiwannaise</h6></div>
+                    <div className="row"><h6 className="text-end">nouilles</h6></div>
+                    <div className="row"><h6 className="text-end mb-2">casse-croûtes</h6></div>
+                    <div className="text-end">
                         <a href="/menu-fr#food">
                             <Button outline color="success" size="md" className="shadow-sm rounded-0 text-end">voir repas</Button>
                         </a>
                     </div>
                 </div>
                 <div id="carouselExampleSlidesOnly" className="px-0 carousel slide carousel-fade col-6" data-bs-ride="carousel">
-                    <div class="carousel-item active">
+                    <div className="carousel-item active">
                         <img className="d-block w-100 img-fluid" src={IronPlate} alt="First slide" />
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <img className="d-block w-100 img-fluid" src={Noodles} alt="Second slide" />
                     </div>
                     <div className="carousel-item">

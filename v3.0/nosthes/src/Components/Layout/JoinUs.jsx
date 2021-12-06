@@ -4,7 +4,18 @@ import FrontStore from './../photos/front_store_3(2).png'
 const JoinUs = (props) => {
     return (
         <Fragment  >
-            <div id="joinus" className="row mx-auto mt-5 pb-5 container px-0">
+            <style type="text/css">
+                {`
+                    @media (min-width: 600px) {
+                        .maxWidth {
+                            width: 50rem;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+                `}
+            </style>
+            <div id="joinus" className="row mx-auto mt-5 pb-5 container px-0 maxWidth">
                 <h6 className="fw-bold text-center" >JOIN US</h6>
                 <a href="https://www.google.com/maps/dir//nosthes+google+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cc91a6b172a7bf7:0x1d20aba3b04b6f1c?sa=X&ved=2ahUKEwjbuL-6ie7yAhWwSt8KHcE2Cd8Q9Rd6BAhUEAQ" className="text-dark">
                     <p className="description m-0 text-dark">
@@ -17,8 +28,8 @@ const JoinUs = (props) => {
                         Metro Guy-Concordia (Guy exit)
                     </p>
                 </a>
-                <div>
-                    <h6 className="text-center mt-3">OPEN HOURS</h6>
+                <div className="maxWidth">
+                    <h6 className="text-center mt-5">OPEN HOURS</h6>
                     <div className="border-top"></div>
                     <p className="description m-0">          Mon – Thu &emsp;12:00 PM – 9:00 PM</p>
                     <p className="description m-0">          Fri – Sat &emsp;&emsp;12:00 PM – 9:00 PM</p>
